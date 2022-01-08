@@ -448,15 +448,16 @@ font-size: 20px;
         padding: 12px;
     }
     .allOffers-info>h2 {
-        z-index: 3;
+        z-index: 4;
+        padding-left: 0px;
 
     }
     .container{
         padding: 5px;
     }
     .allOffers-info>img {
-        opacity: 0.5;
-        z-index: -1;
+        opacity: 0.8;
+        z-index: 1;
    
    }
    .details-button{
