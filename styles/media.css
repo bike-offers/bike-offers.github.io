@@ -1,0 +1,500 @@
+@media only screen and (max-width: 1600px){
+    #create-page, #edit-page {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1340px){
+.offer {
+    padding: 50px 15px 10px 15px;
+}
+#create-page, #edit-page {
+    width: 60%;
+}
+.create-comment{
+    width:100%;
+}
+.create-comment>.form>textarea {
+    width: 95%;
+}
+.details-btn {
+    padding: 9px;
+}
+@media only screen and (max-width: 1140px){
+    #welcome-world div.no-offers {
+        width: 15%;
+    }
+    #welcome-world>#donate-page{
+        height: 75vh;
+        padding: 15px;
+    }
+
+}
+@media only screen and (max-width: 880px){
+    #welcome{
+        display: none;
+    }
+
+    #offer-details>h1 {
+        font-size: 25px;
+    }
+    .main-content{
+        margin-bottom: 40px;
+    }
+.offer{
+  
+    padding: 30px 15px 10px 15px;
+}
+.push{
+    display: none;
+}
+.offer-icon{
+    margin: 0;
+}
+.offer-icon i{
+    font-size: 14px;
+}
+.data-buttons{
+    
+    font-size: 0;
+    padding-top: 0;
+    margin-top: 15px;
+}
+div.offer-info {
+    display: flex;
+    flex-direction: column;
+    
+}
+.info-wrapper{
+    float: left;
+}
+.button {
+    padding: 4px; 
+    font-size: 16px;
+    margin: 5px;
+    text-align: left;
+}
+div .buttons{
+    margin: 14px;
+    text-align: left;
+    width: 100%;
+    margin-left: 0;
+}
+.info-wrapper>h3 {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.offer-wrapper {
+    flex-direction: column;
+    align-items: center
+}
+.offer{
+    width: 85%;
+}
+.image-wrap>img {
+    height: 80px;
+}
+.image-wrap{
+    float: right;
+}
+#create-page, #edit-page {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 25px;
+}
+#offer-details{
+    margin: 0px auto;
+    width: 97%;
+}
+.info-section>.details-comments li {
+    width: 95%;    
+}
+.details-btn a{
+    font-size: 6px;
+}
+#welcome-world{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+}
+#welcome{
+    border-radius: 0;
+}
+#catalog-page{
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+}
+.allOffers{
+    width: 95%;
+}
+#donate-page {
+    width: 100%;
+}
+#donate-page h1{
+    width: 100%;
+
+}
+div.donate-wrapper>.donate-info{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.donate-wrapper{
+    padding: 20px;
+}
+.details-btn {
+    padding: 7px;
+}
+#login-page{
+    width: 70%;
+    height: 75vh;
+  
+    margin-top: 60px;
+}
+.field >span{
+    font-size: 9px;
+}
+#register-page {
+    width: 80%;
+}
+@media only screen and (max-width: 810px){
+
+    #welcome-world div.no-offers {
+        width: 100%;
+    }
+.brand-title{
+    /* font-size: 1.2rem; */
+       font-size: 18px;
+  
+}
+   .allOffers{
+       width: 80%;
+   }
+   #catalog-page{
+    margin: 0px;
+    width: 100%;
+   }
+   .push{
+       display: none;
+   }
+    .main-content{
+        margin-bottom: 40px;
+    }
+    #welcome-world {
+        padding: 0;
+        padding-bottom: 30px;
+        width: 100%;
+        height: 100vh;
+    }
+    .welcome-message{
+        width: 100%;
+    }
+    #home-page>h1 {
+        width: 100%;
+    }
+    #home-page{
+        padding: 20px;
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 100%;
+        height: 140vh;
+        margin: 0 auto;
+    }
+    .brand-title{
+        margin: 0 auto;
+    }
+    .toggle-button{
+        display: flex;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+    .navbar-links.active{
+      display: flex;
+    }
+.navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+}
+.navbar-links li{
+    text-align: center;
+    width: 100%;
+}
+.navbar-links li a{
+    
+    padding: .5rem 1rem;
+    margin: 0;
+}
+h1.offer-title {
+    font-size: 30px;
+}
+  .levels{
+    font-size: 12px;
+  }
+ .info-section>.text { 
+font-size: 25px;
+  }
+p.offer-price{
+font-size: 25px;
+}
+.text{
+font-size: 25px;
+padding: 15px;
+}
+.details-comments h2{
+    font-size: 20px;
+}
+.no-comment{
+    font-size: 14px;
+}
+.create-comment>label {
+    font-size: 20px;
+
+}
+.btn.submit {
+    font-size: 20px;
+}
+.form textarea{
+    font-size: 16px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.btn.submit{
+        margin-top:10;
+        height: 30px;
+        font-size: 16px;
+
+}
+.allOffers-info>h2 {
+    font-size: 15px;
+}
+.creator-info{
+    font-size: 12px;
+}
+.donate-msg{
+    font-size: 14px;
+}
+#welcome-world>#donate-page{
+    height: 116vh;
+    padding: 20px;
+}
+#donate-page>.donate-wrapper{
+    padding: 16px;
+    /* height: 70vh; */
+
+}
+.wallet-adress{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.span-links{
+    margin: 10px;
+    font-size: 14px;
+}
+.container>h1 {
+    font-size: 25px;
+}
+label {
+    font-size: 20px;
+}
+input[type="text"] {
+    padding: 8px;
+font-size: 13px;
+height: 30px;
+width: 100%;
+}
+input[type="password"] {
+    padding: 8px;
+    font-size: 13px;
+    height: 30px;
+    width: 100%;
+}
+
+
+input[type="email"] {
+    padding: 8px;
+    font-size: 13px;
+    height: 30px;
+    width: 100%;
+    
+}
+input[type="number"] {
+    padding: 8px;
+    font-size: 13px;
+    height: 30px;
+    width: 100%;
+    
+}
+
+textarea{
+    min-height: 4em;
+    font-size: 15px;
+}
+#welcome-world {
+    height: 145vh;
+}
+.levels {
+    margin: 4px;
+    padding: 4px;
+}
+.type-options{
+    width: 100%;
+    border-radius: 0px;
+    padding: 0;
+}
+h2.wallet-address{
+    text-align: start;
+}
+#donate-page div.donate-links{
+    align-items: flex-start
+}
+.donate-wrapper{
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+#welcome-world>#donate-page{
+    width: 100%;
+}
+}
+@media only screen and (max-width: 640px){
+.offer-header{
+    padding: 2px;
+    padding-top: 10px;
+    margin: 0px 10px auto;
+}
+    label {
+        font-size: 16px;
+    }
+    #login-page{
+        width: 90%;
+        margin-top: 25px;
+        height: 65vh;
+    }
+    .details-btn {
+        padding: 5px;
+    } 
+  .type-options{
+    width: 100%;
+    border-radius: 0px;
+    padding: 0;
+
+  }
+  h1.offer-title {
+    font-size: 25px;
+}
+  .levels{
+    font-size: 10px;
+  }
+ .info-section>.text { 
+font-size: 20px;
+padding: 5px
+  }
+p.offer-price{
+font-size: 20px;
+}
+.text{
+font-size: 20px;
+
+
+}
+.no-offers {
+    width: 100%;
+}
+#home-page>h1{
+    width: 100%;
+    font-size: 20px;
+}
+.no-articles{
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-size: 18px;
+   
+    line-height: 1.2;
+}
+.creator-info{
+    font-size: 10px;
+}
+.donate-msg{
+    font-size: 10px;
+}
+#donate-page{
+    width: 100%;
+}
+}
+@media only screen and (max-width: 460px){
+    #donate-page>.donate-wrapper {
+        padding-left: 0;
+    padding-right: 0px;
+    }
+    h2.wallet-address {
+        font-size: 14px;
+    }
+    .span-links {
+        font-size: 9px;
+    }
+
+    .donate-info{
+        font-size: 13px;
+    }
+    #dotate-page>.donate-wrapper{
+        padding: 12px;
+    }
+    .allOffers-info>h2 {
+        z-index: 3;
+
+    }
+    .container{
+        padding: 5px;
+    }
+    .allOffers-info>img {
+        opacity: 0.5;
+        z-index: -1;
+   
+   }
+   .details-button{
+    font-size: 10px;
+    z-index: 3;
+
+   }
+       .allOffers-info{
+        padding: 12px
+       }
+}
+@media only screen and (max-width: 350px){
+  
+    .info-wrapper {
+        width: 100%;
+    }
+    .image-wrap {
+       
+        float: none;
+    }
+    .offer {
+        padding: 15px 5px 5px 5px;
+    }
+    .info-wrapper>h3 {
+        display: none;
+    }
+    .rating{
+        display: none;
+    }
+    .data-buttons{
+        margin-top: 0;
+    margin-bottom: 12px;
+    }
+    .button{
+        font-size: 10px;
+    }
+}
+}
+}
+
+/* padding: 15px 5px 5px 5px; */

@@ -1,0 +1,31 @@
+#notification {
+    position: fixed;
+    right: 20%;
+    top: 80px;
+    z-index: 800;
+}
+.notification {
+    list-style: none;
+    color: white;
+    background-color: #ed1b1bba;
+   
+    padding: 13px 42px;
+    border-radius: 14px;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px 30px 4px rgb(247 4 4);
+    cursor: pointer;
+}
+.notification-comment{
+    list-style: none;
+    color: white;
+    background-color: #21bd3bbf;
+    padding: 13px 42px;
+    border-radius: 14px;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px 30px 13px #21bd3b;
+    cursor: pointer;
+}
+.red-element{
+ color: #e42020;
+
+}

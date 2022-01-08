@@ -1,0 +1,12 @@
+.footer{
+    text-align: center;
+    position: relative;
+    /* margin-top: auto; */
+    display: relative;
+}
+.donate{
+    display: none;
+}
+.donate.active{
+    display: block;
+}

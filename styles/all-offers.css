@@ -1,0 +1,176 @@
+#catalog-page {
+    /* background-color: transparent; */
+    background-color: #808080c7;
+    
+    box-shadow: 0px 0px 40px 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    /* width: 900px; */
+    width: 80%;
+    margin-top: 50px;
+}
+
+#catalog-page>h1 {
+    color: #fff;
+    font-family: "Agency FB";
+    font-size: 25px;
+    /* font-weight: 700; */
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #141719d4;
+    border-radius: 42px;
+    width: 90%;
+    box-shadow: 0px 0px 30px 0px rgb(146 204 131);
+    /* margin-bottom: 30px; */
+    
+}
+
+.allOffers {
+    background: #141719d4;
+    border-radius: 10px;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    max-width: 100%;
+    /* margin: 15px; */
+    overflow: hidden;
+    /* width: 600px auto; */
+    min-height: 210px;
+    height: auto;
+    box-shadow: 0px 0px 30px 0px;
+    color: rgb(146 204 131);
+    margin: 15px auto;
+    width: 80%;
+    transition: 2s;
+}
+.allOffers:hover{
+    width: 85%;
+    background: rgba(3, 3, 3, 0.836);
+    color: #45af2a;
+    transform: scale(1.1);
+    
+    /* after:.allGames-info>img {
+        margin-top: -10px;
+        border-radius: 6%;
+        height: 206px;
+        position: absolute;
+        top: 12px;
+        right: 30px;
+        float: right;
+        padding: 5px;
+        width: 242px;
+    } */
+
+}
+.allOffer:hover +img{
+    height: 240px;
+}
+
+.allOffers-info {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+    /* color: rgb(146 204 131);
+    box-shadow: 0px 0px 30px 0px; */
+}
+
+.allOffers-info>img {
+    margin-top: -18px;
+    border-radius: 50%;
+    height: 190px;
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    float: right;
+    padding: 5px;
+    width: 190px;
+}
+
+.allOffers-info>h6 {
+    font-size: 20px;
+    font-weight: 750;
+    color: #161618;
+}
+
+.allOffers-info>h2 {
+    font-size: 26px;
+    font-weight: 750;
+    color: #8ed89a9e;
+}
+
+.details-button {
+    background-color: #66936cd9;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 13px;
+    position: absolute;
+    bottom: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-top: auto;
+    margin-left: 20px;
+    border-radius: 42px;
+    transition: 1.5s;
+}
+.details-button:hover{
+    background-color: #2eb153;
+    
+    box-shadow: 0px 0px 30px 0px rgb(146 204 131);
+
+    /* color: rgb(146 204 131); */
+
+}
+
+.type-options{
+    margin: 20px auto;
+    padding: 10px;
+   
+    display: flex;
+   flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    /* background: #0e010100; */
+    background: #0808087a;
+    border-radius: 9px;
+    width: 23%;
+    box-shadow: 0px 0px 30px 0px rgb(146 204 131);
+
+  
+}
+.type-options:hover {
+    background: #080808ad;
+    box-shadow: 0px 0px 30px 0px rgb(106, 197, 84);
+
+}
+.sort-width{
+    width: 5%;
+}
+.type-options div{
+/* color: rgb(0, 0, 0); */
+/* background-color: grey; */
+/* font-size: 1.1rem; */
+/* width: 30%; */
+margin:0 10px;
+/* transition:1,5s; */
+
+
+}
+.type-options a i{
+    display: block;
+    width: 100%;
+color: white;
+transition:1s;
+
+}
+.type-options a{
+    text-align: center;
+}
+.type-options a i:hover{
+   
+  transform: scale(1.8);
+    color: rgb(68, 179, 105);
+   
+}
