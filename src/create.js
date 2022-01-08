@@ -73,7 +73,7 @@ const createTemplate = (onSubmit, onChange) => html` <section
           type="text"
           id="img"
           name="img"
-          placeholder="Upload a photo..."
+          placeholder="Upload image url here..."
         />
 
         <label for="description"
