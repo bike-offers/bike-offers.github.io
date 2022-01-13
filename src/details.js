@@ -41,7 +41,7 @@ const detailsTemplate = (
    
 
   
-    <p class="offer-price" >Price: ${info.price}</p>
+    <p class="offer-price" >Price: ${info.price} &euro;</p>
    
 
   
